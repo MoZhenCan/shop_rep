@@ -1,0 +1,108 @@
+page{
+  background-color: #edece8;
+}
+.user_info_wrap{
+  height: 45vh;
+  background-color: var(--themeColor);
+  position: relative;
+  .user_img_wrap{
+    .user_bg{
+      height: 50vh;
+      filter: blur(10rpx);
+    }
+    .user_info{
+      position: absolute;
+      left: 50%;
+      top: 40%;
+      transform: translate(-50%);
+      text-align: center;
+      .user_icon{
+        width: 150rpx;
+        height: 150rpx;
+        border-radius: 50%;
+      }
+      .user_name{
+        color: #fff;
+        margin-top: 40rpx;
+      }
+    }
+  }
+  .user_bnt{
+    border: 1rpx solid yellowgreen;
+    position: absolute;
+    border-radius: 10rpx;
+    left: 50%;
+    top: 40%;
+    padding: 30rpx;
+    transform:translate(-50%);
+    font-size: 38rpx;
+  }
+}
+.user_content{
+  position: relative;
+  .user_main{
+    color: gray;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -40rpx;
+    padding-bottom: 90rpx;
+    .user_history{
+      display: flex;
+      background-color: white;
+      padding: 10rpx 0;
+      navigator{
+        flex:1;
+        text-align: center;
+        text{
+          color: var(--themeColor);
+        }
+      }
+  }
+  .user_order{
+    background-color: white;
+    margin-top: 40rpx;
+    .order_title{
+      padding: 20rpx 10rpx;
+      border-bottom: 2rpx solid gray;
+    }
+    .order_tool{
+      display: flex;
+      .order_item{
+        flex: 1;
+        text-align: center;
+        padding: 25rpx 10rpx;
+        navigator{
+        .iconfont{
+          color: var(--themeColor);
+          font-size: 40rpx;
+        }
+        .icon_title{}
+      }
+      }
+    }
+  }
+  .address_pro{
+    padding: 20rpx 10rpx;
+    background-color: white;
+    margin: 40rpx 0 40rpx 0;
+  }
+  .other_pro{
+    background-color: white;
+    .other_pro_item{
+      padding: 20rpx 10rpx;
+      border-bottom: gray 1rpx solid;
+    }
+    .left_right{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .recomant_it{
+    margin-top: 40rpx;
+    padding: 20rpx 10rpx;
+    background-color: white;
+  }
+  }
+}

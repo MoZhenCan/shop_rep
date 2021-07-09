@@ -1,0 +1,33 @@
+@import './styles/iconfont.wxss';
+
+/* 不支持*  */
+
+page,
+view,
+text,
+swiper,
+swiper-item,
+image,
+navigator {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* 主题颜色 通过变量来实现
+  less 中 存在 变量的这个知识
+  原生的css和wxss也支持
+*/
+
+page {
+    /*
+  定义主题颜色
+  */
+    --themeColor: #eb4450;
+    font-size: 28rpx;
+}
+
+image {
+    width: 100%;
+}

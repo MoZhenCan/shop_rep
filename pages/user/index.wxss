@@ -1,0 +1,103 @@
+page {
+  background-color: #edece8;
+}
+.user_info_wrap {
+  height: 45vh;
+  background-color: var(--themeColor);
+  position: relative;
+}
+.user_info_wrap .user_img_wrap .user_bg {
+  height: 50vh;
+  filter: blur(10rpx);
+}
+.user_info_wrap .user_img_wrap .user_info {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%);
+  text-align: center;
+}
+.user_info_wrap .user_img_wrap .user_info .user_icon {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_info_wrap .user_img_wrap .user_info .user_name {
+  color: #fff;
+  margin-top: 40rpx;
+}
+.user_info_wrap .user_bnt {
+  border: 1rpx solid yellowgreen;
+  position: absolute;
+  border-radius: 10rpx;
+  left: 50%;
+  top: 40%;
+  padding: 30rpx;
+  transform: translate(-50%);
+  font-size: 38rpx;
+}
+.user_content {
+  position: relative;
+}
+.user_content .user_main {
+  color: gray;
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: -40rpx;
+  padding-bottom: 90rpx;
+}
+.user_content .user_main .user_history {
+  display: flex;
+  background-color: white;
+  padding: 10rpx 0;
+}
+.user_content .user_main .user_history navigator {
+  flex: 1;
+  text-align: center;
+}
+.user_content .user_main .user_history navigator text {
+  color: var(--themeColor);
+}
+.user_content .user_main .user_order {
+  background-color: white;
+  margin-top: 40rpx;
+}
+.user_content .user_main .user_order .order_title {
+  padding: 20rpx 10rpx;
+  border-bottom: 2rpx solid gray;
+}
+.user_content .user_main .user_order .order_tool {
+  display: flex;
+}
+.user_content .user_main .user_order .order_tool .order_item {
+  flex: 1;
+  text-align: center;
+  padding: 25rpx 10rpx;
+}
+.user_content .user_main .user_order .order_tool .order_item navigator .iconfont {
+  color: var(--themeColor);
+  font-size: 40rpx;
+}
+.user_content .user_main .address_pro {
+  padding: 20rpx 10rpx;
+  background-color: white;
+  margin: 40rpx 0 40rpx 0;
+}
+.user_content .user_main .other_pro {
+  background-color: white;
+}
+.user_content .user_main .other_pro .other_pro_item {
+  padding: 20rpx 10rpx;
+  border-bottom: gray 1rpx solid;
+}
+.user_content .user_main .other_pro .left_right {
+  display: flex;
+  justify-content: space-between;
+}
+.user_content .user_main .recomant_it {
+  margin-top: 40rpx;
+  padding: 20rpx 10rpx;
+  background-color: white;
+}
